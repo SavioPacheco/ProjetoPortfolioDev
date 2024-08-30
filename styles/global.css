@@ -32,3 +32,12 @@
     --text-button: 500 16px/140% var(--font-maven);
 
 }
+
+body {
+    background-color: var(--base-gray-200);
+    max-width: 1366px;
+    margin-inline: auto;
+    color: var(--base-gray-500);
+    
+}
+
