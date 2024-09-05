@@ -1,7 +1,17 @@
 .flex {
     display: flex;
+    
 }
 
 .container {
     padding-inline: 120px;
+}
+
+.grid {
+    display: grid;
+}
+
+.col-center {
+    flex-direction: column;
+    align-items: center;
 }

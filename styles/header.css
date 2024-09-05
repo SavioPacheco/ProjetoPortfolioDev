@@ -4,9 +4,6 @@ header {
 }
 
 #profile {
-    flex-direction: column;
-    align-items: center;
-
     padding-block: 120px 80px;
     padding-inline: 340px;
 
@@ -18,13 +15,9 @@ header {
         font: var(--subtitle);
     }
     h1 {
-        font: var(--title-lg);
-        color: var(--base-gray-600);
         margin-top: 8px;
     }
     p{
-        font: var(--text-sm);
-        color: var(--base-gray-400);
         margin-top: 20px;
         text-align: center;
     }
@@ -44,8 +37,8 @@ picture {
     }
     img:nth-child(2) {
         position: absolute;
-        bottom: 0;
-        right: 0;
+        bottom: 7px;
+        right: 2px;
     }
 }
 
