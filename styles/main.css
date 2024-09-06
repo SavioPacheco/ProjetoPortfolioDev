@@ -17,11 +17,11 @@
     margin-inline: auto;
 
     .card {
-        width: 326px;
+        text-decoration: none;
+        width: 330px;
         background-color: var(--base-gray-300);
         border-radius: 12px;
-        padding: 8px 8px 17px;
-        border: solid 2px var(--base-gray-300);
+        padding: 12px 12px 17px;
 
         img {
             width: 306px;
@@ -43,7 +43,7 @@
         }
 
         &:hover {
-            border: solid 2px var(--base-gray-400);
+            outline: solid 2px var(--base-gray-400);
         }
     }
 }
@@ -67,6 +67,7 @@
         margin-inline: auto;
 
         figure {
+            
             border: solid 2px var(--base-gray-200);
             border-radius: 12px;
             padding: 16px;

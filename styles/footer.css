@@ -30,7 +30,6 @@ footer {
                     gap: 20px;
                     text-decoration: none;
                     width: 400px;
-                    border: solid 2px var(--base-gray-300);
                     border-radius: 12px;
         
                     background-color: var(--base-gray-300);
@@ -49,7 +48,7 @@ footer {
                     }
 
                     &:hover {
-                        border: solid 2px var(--main-blue);
+                        outline: solid 2px var(--main-blue);
                         span {
                             background-image: url(/assets/icons/linkedin-logo-hover.svg);
                         }
