@@ -42,7 +42,7 @@ picture {
     }
 }
 
-ul {
+header ul {
     list-style: none;
     justify-content: center;
     gap: 16PX;

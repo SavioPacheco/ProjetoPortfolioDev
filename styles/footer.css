@@ -1,0 +1,97 @@
+footer {
+    background-image: url(/assets/images/Background_Contacts.png);
+    background-size: contain;
+}
+
+#foot {
+    padding-block: 128px 200px;
+    h4 {
+        color: var(--main-purple);
+    }
+    p {
+        font: var(--text-md);
+        color: var(--base-gray-500);
+    }
+
+    section:nth-child(1) {
+        margin-bottom: 48px;
+        gap: 8px;
+    }
+    
+    section:nth-child(2) {
+        ul{
+            list-style: none;
+            gap: 16px;
+            
+            li {
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    text-decoration: none;
+                    width: 400px;
+                    border: solid 2px var(--base-gray-300);
+                    border-radius: 12px;
+        
+                    background-color: var(--base-gray-300);
+                    padding: 20px;
+                    
+                    span {
+                        width: 28px;
+                        height: 28px;
+                        background-image: url(/assets/icons/linkedin-logo.svg);
+                        background-size: contain;
+                    }
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-left: auto;
+                    }
+
+                    &:hover {
+                        border: solid 2px var(--main-blue);
+                        span {
+                            background-image: url(/assets/icons/linkedin-logo-hover.svg);
+                        }
+                    }
+                }
+            }
+            li:nth-child(2) {
+                a {
+                    span {
+                        background-image: url(/assets/icons/instagram-logo.svg);
+                    }
+                    &:hover {
+                        span {
+                            background-image: url(/assets/icons/instagram-logo-hover.svg);
+                        }
+                    }
+                }
+            }
+            li:nth-child(3) {
+                a {
+                    span {
+                        background-image: url(/assets/icons/github-logo.svg);
+                    }
+                    &:hover {
+                        span {
+                            background-image: url(/assets/icons/github-logo-hover.svg);
+                        }
+                    }
+                }
+            }
+            li:nth-child(4) {
+                a {
+                    span {
+                        background-image: url(/assets/icons/e-mail.svg);
+                    }
+                    &:hover {
+                        span {
+                            background-image: url(/assets/icons/e-mail-hover.svg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
